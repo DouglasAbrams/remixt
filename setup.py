@@ -59,4 +59,19 @@ setup(
     classifiers=[],
     ext_modules=cythonize(extensions),
     entry_points={'console_scripts': ['remixt = remixt.ui.main:main']},
+    install_requires=[
+        'numpy',
+        'scipy',
+        'zlib',
+        'bzip2',
+        'pandas',
+        'pytables',
+        'pypeliner',
+        'statsmodels',
+        'scikit-learn',
+        'pyyaml',
+        'matplotlib',
+        'seaborn',
+        'bokeh',
+    ]
 )
